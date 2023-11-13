@@ -1,1 +1,16 @@
-/* your code */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px; /* Adjust the value to control the roundness */
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Adjust the value to control the roundness */
+}
+
+/* Optional: Add hover effect */
+td:hover, th:hover {
+    background-color: #f5f5f5;
+}
